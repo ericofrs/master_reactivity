@@ -8,5 +8,3 @@
 4. When using reactive content, we must encapsulate it in a reactive function (context), so that the app can read it. When we try to use it in another way, we will face errors.
 5. The output is updated because on the server, we define the output that will be updated after an input value is modified.
 
-## Part 2
-
