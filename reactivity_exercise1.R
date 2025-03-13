@@ -35,10 +35,10 @@ server <- function(input, output, session) {
     )
   })
   
-  data <- eventReactive(input$filter_btn, {
-    data() |>
-      filter(Sepal.Length > input$sepal_length[1], Sepal.Length < input$sepal_length[2])
-  })
+  # data <- eventReactive(input$filter_btn, {
+  #   data() |>
+  #     filter(Sepal.Length > input$sepal_length[1], Sepal.Length < input$sepal_length[2])
+  # })
 
   #observe()
   
