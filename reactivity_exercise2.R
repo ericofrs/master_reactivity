@@ -27,7 +27,7 @@ server <- function(input, output, session) {
     })
 
   observeEvent(input$btn2, {
-    values$score <- values$score - 1
+    values$score <- 0
     })
   
   observeEvent(input$username, {
